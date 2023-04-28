@@ -72,7 +72,7 @@ For more details of previous versions , [click here](docs/v1.0.0/Version-History
   - [Adding Mappls Keys](docs/v1.0.0/Place-Autocomplete-Widget.md#adding-mappls-keys)
   - [Place Autocomplete](docs/v1.0.0/Place-Autocomplete-Widget.md#place-autocomplete)
   - [Place Picker](docs/v1.0.0/Place-Autocomplete-Widget.md#place-picker)
-- [Mappls Direction Widget](./Direction-Ui.md)
+- [Mappls Direction Widget](docs/v1.0.0/Direction-Ui.md)
   - [Getting Started](docs/v1.0.0/Direction-Ui.md#getting-started)
   - [Adding Mappls Keys](docs/v1.0.0/Direction-Ui.md#adding-mappls-keys)
   - [Add Direction Widget](docs/v1.0.0/Direction-Ui.md#add-direction-widget)
