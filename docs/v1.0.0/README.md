@@ -75,6 +75,10 @@ For more details of previous versions , [click here](./Version-History.md).
   - [Getting Started](./Direction-Ui.md#getting-started)
   - [Adding Mappls Keys](./Direction-Ui.md#adding-mappls-keys)
   - [Add Direction Widget](./Direction-Ui.md#add-direction-widget)
+- [Mappls Nearby Widget](./Nearby-Widget.md)
+  - [Getting Started](./Nearby-Widget.md#getting-started)
+  - [Adding Mappls Keys](./Nearby-Widget.md#adding-mappls-keys)
+  - [Add Nearby Widget](./Nearby-Widget.md#add-nearby-widget)
 
 <br><br><br>
 

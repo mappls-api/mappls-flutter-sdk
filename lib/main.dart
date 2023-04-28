@@ -14,6 +14,7 @@ import 'package:mappls_flutter_sdk/samples/map_click_event.dart';
 import 'package:mappls_flutter_sdk/samples/map_long_click_event.dart';
 import 'package:mappls_flutter_sdk/samples/map_style_event.dart';
 import 'package:mappls_flutter_sdk/samples/marker_dragging.dart';
+import 'package:mappls_flutter_sdk/samples/nearby_ui_widget.dart';
 import 'package:mappls_flutter_sdk/samples/nearby_widget.dart';
 import 'package:mappls_flutter_sdk/samples/place_detail_widget.dart';
 import 'package:mappls_flutter_sdk/samples/place_picker_widget.dart';
@@ -57,6 +58,7 @@ class MyApp extends StatelessWidget {
         '/PlaceSearchUI': (BuildContext context) => const PlaceSearchWidget(),
         '/PlacePickerUI': (BuildContext context) => const PlacePickerWidget(),
         '/DirectionUI': (BuildContext context) => const DirectionUIWidget(),
+        '/NearbyUI': (BuildContext context) => const NearbyUIWidget(),
         '/Tracking': (BuildContext context) => const TrackingWidget(),
         '/AddPolyline': (BuildContext context) => const AddPolyline(),
         '/GradientPolyline': (BuildContext context) => const AddGradientPolyline(),
