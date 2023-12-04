@@ -21,6 +21,7 @@ Powered with India's most comprehensive and robust mapping functionalities.
 ## [Version History](#Version-History)
 | Version | Last Updated | Author |  Release Note| 
 | ---- | ---- | ---- | ---- |
+| v1.0.1 | 04 December 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Security Improvements <br/> - Bug Fixes |
 | v1.0.0 | 06 March 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   -Initial release  |
 
 For more details of previous versions , [click here](docs/v1.0.0/Version-History.md).

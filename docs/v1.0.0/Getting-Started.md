@@ -27,7 +27,7 @@ The allowed SDK hits are described on the user [dashboard](https://apis.mappls.c
 To work with Mappls Map in flutter add this to your package's pubspec.yaml file:
 ~~~yaml
 dependencies:  
-	mappls_gl: ^1.0.0
+	mappls_gl: ^1.0.1
 ~~~
 Now in your dart code you need to import this package:
 ~~~dart
