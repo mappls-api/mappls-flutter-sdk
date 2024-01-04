@@ -29,6 +29,9 @@ class _CurrentLocationState extends State {
           initialCameraPosition: _kInitialPosition,
           myLocationEnabled: true,
           myLocationTrackingMode: MyLocationTrackingMode.Tracking,
+          onUserLocationUpdated: (location) {
+            print('onUserLocationUpdated ${location.position.toJson()}');
+          },
         ));
   }
 }

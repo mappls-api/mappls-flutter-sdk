@@ -16,11 +16,12 @@ Powered with India's most comprehensive and robust mapping functionalities.
 
 | Version               | Supported SDK Version |  
 |-----------------------| ---- |    
-| [v1.0.0](./README.md) | - Map SDK v1.0.0 <br/> - Place Search Widget v1.0.0 <br/> - GeoFence Widget v1.0.0 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 <br/> - Mappls Polyline v1.0.0 |
+| [v1.0.0](./README.md) | - Map SDK v1.0.1 <br/> - Place Search Widget v1.0.0 <br/> - GeoFence Widget v1.0.0 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 <br/> - Mappls Polyline v1.0.0 |
 
 ## [Version History](#Version-History)
 | Version | Last Updated | Author |  Release Note| 
 | ---- | ---- | ---- | ---- |
+| v1.0.1 | 04 December 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Security Improvements <br/> - Bug Fixes |
 | v1.0.0 | 06 March 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   -Initial release  |
 
 For more details of previous versions , [click here](./Version-History.md).
