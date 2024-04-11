@@ -58,13 +58,12 @@ MapplsAutoSuggest(query: text).callAutoSuggest().then((response) {
 
 1.  `mapplsPin`(String): Place Id of the location 6-char alphanumeric.
 2.  `placeAddress`(String): Address of the location.
-3.  `latitude`(String): Latitude of the location.
-4.  `longitude`(String): longitude of the location.
-5.  `type`(String): type of location POI or Country or City
-6.  `placeName`(String): Name of the location.
-7.  `userName`(String): Name of the user who add the place
-8.  `orderIndex`(int): the order where this result should be placed
-9.  `addressTokens`(AddressToken)
+
+3.  `type`(String): type of location POI or Country or City
+4.  `placeName`(String): Name of the location.
+5.  `userName`(String): Name of the user who add the place
+6.  `orderIndex`(int): the order where this result should be placed
+7.  `addressTokens`(AddressToken)
 
 ##### AddressToken parameters:
 
@@ -157,9 +156,7 @@ MapplsGeoCoding(address: add).callGeocoding().then((response) {
 13.  `pincode`(string): the pincode of the location
 14.  `formattedAddress`(string): the general protocol following address
 15.  `mapplsPin`(string): mappls pin of the particular location
-16.  `latitude`(double): the latitude for the location.
-17.  `longitude`(double): the longitude for the location.
-18.  `geocodeLevel`(string): the best matched address component.
+16.  `geocodeLevel`(string): the best matched address component.
 
 ## [Reverse Geocoding]()
 
@@ -205,9 +202,7 @@ MapplsReverseGeocode(location: latlng).callReverseGeocode().then((response) {
 14.  `state`(String): the state of the location
 15.  `pincode`(String): the pincode of the location
 16.  `formattedAddress`(String): the general protocol following address
-17.  `lat`(double): the latitude for the location.
-18.  `lng`(double): the longitude for the location.
-19.  `area`(String): the area of the location.
+17.  `area`(String): the area of the location.
 
 ## [Nearby Places]()
 
@@ -263,23 +258,22 @@ MapplsNearby(keyword: "Tea", location: latlng).callNearby().then((response) {
 1.  `distance` (int): provides the distance from the provided location bias in meters.
 2.  `mapplsPin`  (String): Place Id of the location 6-char alphanumeric.
 3.  `email`  (String): Email for contact.
-4.  `entryLatitude`  (double): latitude of the entrance of the location.
-5.  `entryLongitude`  (double): longitude of the entrance of the location.
-6.  `keywords`  ( [ String ] ): provides an array of matched keywords or codes.
-7.  `landlineNo`  (String): Email for contact.
-8.  `latitude`  (double): Latitude of the location.
-9.  `longitude`  (double): longitude of the location.
-10.  `mobileNo`  : Phone number for contact.
-11.  `orderIndex`  (int): the order where this result should be placed
-12.  `placeAddress`  (String): Address of the location.
-13.  `placeName`  (String): Name of the location.
-14.  `city`(String): City of the location
-15.  `state`(String): State of the location
-16.  `pincode`(String): Pincode of the location
-17.  `richInfo`(Map): To show advance information of location
-18.  `type`  (String): Type of location POI or Country or City.
-19.  `hourOfOperation`(String): The hours of operation of the POI in a day.
-20.  `addressTokens`(AddressToken)
+
+4.  `keywords`  ( [ String ] ): provides an array of matched keywords or codes.
+5.  `landlineNo`  (String): Email for contact.
+6.  `latitude`  (double): Latitude of the location.
+7.  `longitude`  (double): longitude of the location.
+8.   `mobileNo`  : Phone number for contact.
+9.   `orderIndex`  (int): the order where this result should be placed
+10.  `placeAddress`  (String): Address of the location.
+11.  `placeName`  (String): Name of the location.
+12.  `city`(String): City of the location
+13.  `state`(String): State of the location
+14.  `pincode`(String): Pincode of the location
+15.  `richInfo`(Map): To show advance information of location
+16.  `type`  (String): Type of location POI or Country or City.
+17.  `hourOfOperation`(String): The hours of operation of the POI in a day.
+18.  `addressTokens`(AddressToken)
 
 #### AddressToken parameters:
 
