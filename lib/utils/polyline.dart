@@ -190,8 +190,8 @@ class Polyline {
   /// @param {List<double>} point2 - lat, lon are mandatory
   /// @return {double} distance
   double _haversineDistance(List<double> _point1, List<double> _point2) {
-    _point1.map((item) => item != null ?  _degToRad(item) : throw NullThrownError);
-    _point2.map((item) => item != null ?  _degToRad(item) : throw NullThrownError);
+    _point1.map((item) => item != null ?  _degToRad(item) : null);
+    _point2.map((item) => item != null ?  _degToRad(item) : null);
 
     const radius = 6371;
     final point1 = [_point1[0], _point1[1] ];
