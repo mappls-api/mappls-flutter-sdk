@@ -19,9 +19,9 @@ class _LocationCameraOptionState extends State {
   late MyLocationRenderMode _myLocationRenderMode;
   late String _slectedRenderModeText;
   List<MyLocationRenderMode> renderModeList = [
-    MyLocationRenderMode.NORMAL,
-    MyLocationRenderMode.COMPASS,
-    MyLocationRenderMode.GPS,
+    MyLocationRenderMode.normal,
+    MyLocationRenderMode.compass,
+    MyLocationRenderMode.gps,
   ];
   List<String> renderModeTextList = [
     "Normal",
@@ -30,13 +30,13 @@ class _LocationCameraOptionState extends State {
   ];
   late String _selectedTrackingModeText;
   List<MyLocationTrackingMode> trackingModeList = [
-    MyLocationTrackingMode.None,
-    MyLocationTrackingMode.NoneCompass,
-    MyLocationTrackingMode.NoneGPS,
-    MyLocationTrackingMode.Tracking,
-    MyLocationTrackingMode.TrackingCompass,
-    MyLocationTrackingMode.TrackingGPS,
-    MyLocationTrackingMode.TrackingGPSNorth,
+    MyLocationTrackingMode.none,
+    MyLocationTrackingMode.noneCompass,
+    MyLocationTrackingMode.noneGPS,
+    MyLocationTrackingMode.tracking,
+    MyLocationTrackingMode.trackingCompass,
+    MyLocationTrackingMode.trackingGPS,
+    MyLocationTrackingMode.trackingGPSNorth,
   ];
   List<String> trackingModeTextList = [
     "None",
@@ -120,9 +120,9 @@ class _LocationCameraOptionState extends State {
         child: Row(children: [
           PopupMenuButton<int>(
             onSelected: (int index) => {
-              setState(() => {
-                    _myLocationRenderMode = renderModeList[index],
-                    _slectedRenderModeText = renderModeTextList[index]
+              setState(() {
+                    _myLocationRenderMode = renderModeList[index];
+                    _slectedRenderModeText = renderModeTextList[index];
                   }),
               Fluttertoast.showToast(
                   msg: renderModeTextList[index],
@@ -163,9 +163,9 @@ class _LocationCameraOptionState extends State {
         child: Row(children: [
           PopupMenuButton<int>(
             onSelected: (int index) => {
-              setState(() => {
-                    _myLocationTrackingMode = trackingModeList[index],
-                    _selectedTrackingModeText = trackingModeTextList[index]
+              setState(() {
+                    _myLocationTrackingMode = trackingModeList[index];
+                    _selectedTrackingModeText = trackingModeTextList[index];
                   }),
               Fluttertoast.showToast(
                   msg: trackingModeTextList[index],

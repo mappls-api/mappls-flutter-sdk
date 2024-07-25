@@ -94,14 +94,19 @@ class MapsDemo extends StatefulWidget {
 
 class _MapsDemoState extends State {
   FeatureType? selectedFeatureType;
+  static const String mapSDKKey = "";
+  static const String restAPIKey = "";
+  static const String atlasClientId = "";
+  static const String atlasClientSecret = "";
+
 
   @override
   void initState() {
     super.initState();
-    MapplsAccountManager.setMapSDKKey("");
-    MapplsAccountManager.setRestAPIKey("");
-    MapplsAccountManager.setAtlasClientId("");
-    MapplsAccountManager.setAtlasClientSecret("");
+    MapplsAccountManager.setMapSDKKey(mapSDKKey);
+    MapplsAccountManager.setRestAPIKey(restAPIKey);
+    MapplsAccountManager.setAtlasClientId(atlasClientId);
+    MapplsAccountManager.setAtlasClientSecret(atlasClientSecret);
     setState(() {
       selectedFeatureType = FeatureType.mapEvent;
     });
@@ -148,10 +153,10 @@ class _MapsDemoState extends State {
               end: Alignment.bottomRight,
             )),
             height: 170,
-            child: Column(
+            child: const Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               mainAxisSize: MainAxisSize.max,
-              children: const <Widget>[
+              children: <Widget>[
                 SizedBox(
                   height: 110,
                 ),

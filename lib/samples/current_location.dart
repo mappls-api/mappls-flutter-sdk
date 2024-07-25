@@ -28,7 +28,7 @@ class _CurrentLocationState extends State {
         body: MapplsMap(
           initialCameraPosition: _kInitialPosition,
           myLocationEnabled: true,
-          myLocationTrackingMode: MyLocationTrackingMode.Tracking,
+          myLocationTrackingMode: MyLocationTrackingMode.tracking,
           onUserLocationUpdated: (location) {
             print('onUserLocationUpdated ${location.position.toJson()}');
           },
