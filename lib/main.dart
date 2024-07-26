@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mappls_flutter_sdk/map_demo.dart';
+import 'package:mappls_flutter_sdk/samples/add_cluster.dart';
 import 'package:mappls_flutter_sdk/samples/add_gradient_polyline.dart';
 import 'package:mappls_flutter_sdk/samples/add_marker.dart';
 import 'package:mappls_flutter_sdk/samples/add_polyline.dart';
@@ -62,6 +63,7 @@ class MyApp extends StatelessWidget {
         '/Tracking': (BuildContext context) => const TrackingWidget(),
         '/AddPolyline': (BuildContext context) => const AddPolyline(),
         '/GradientPolyline': (BuildContext context) => const AddGradientPolyline(),
+        '/ClusterMarker': (BuildContext context) => const AddCluster(),
       },
     );
   }

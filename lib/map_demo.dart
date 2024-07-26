@@ -28,7 +28,8 @@ final List<FeatureList> cameraFeatures = <FeatureList>[
 
 final List<FeatureList> markerFeatures = <FeatureList>[
   const FeatureList('Add Marker', 'Way to add Marker on Map', '/AddMarker'),
-  const FeatureList('Marker Dragging', 'Drag a marker', '/MarkerDragging')
+  const FeatureList('Marker Dragging', 'Drag a marker', '/MarkerDragging'),
+  const FeatureList('Cluster Marker', 'Way to add multiple markers and grouped the marker on zoom out', '/ClusterMarker'),
 ];
 
 final List<FeatureList> locationFeatures = <FeatureList>[
