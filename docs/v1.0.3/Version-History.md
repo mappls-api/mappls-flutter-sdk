@@ -6,6 +6,7 @@
 
 | Version | Last Updated | Author |  Release Note|
 | ---- | ---- | ---- | ---- |
+| v1.1.1 | 28 October 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Bug Fixes and Improvements |
 | v1.1.0 | 24 July 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - All Dart enums have been migrated from mixed cases to lower camelcase according to the camel_case_types lint rule. <br/> - Added minimum Dart SDK support to 3.0 <br/> - Fixed Mappls Pin Marker issue in Flutter IOS |
 | v1.0.2 | 17 June 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Bug Fixes |
 | v1.0.1 | 04 December 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Security Improvements <br/> - Bug Fixes |
