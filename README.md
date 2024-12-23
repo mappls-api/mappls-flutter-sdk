@@ -16,7 +16,7 @@ Powered with India's most comprehensive and robust mapping functionalities.
 
 | Version | Supported SDK Version |  
 | ---- | ---- |    
-| [v1.0.3](docs/v1.0.3/README.md) | - Map SDK v1.1.1 <br/> - Place Search Widget v1.0.1 <br/> - GeoFence Widget v1.0.0 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 <br/> - Mappls Polyline v1.0.0 |
+| [v1.0.3](docs/v1.0.3/README.md) | - Map SDK v1.1.2 <br/> - Place Search Widget v1.0.1 <br/> - GeoFence Widget v1.0.0 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 <br/> - Mappls Polyline v1.0.0 |
 | [v1.0.2](docs/v1.0.2/README.md) | - Map SDK v1.0.2 <br/> - Place Search Widget v1.0.1 <br/> - GeoFence Widget v1.0.0 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 <br/> - Mappls Polyline v1.0.0 |
 | [v1.0.1](docs/v1.0.1/README.md) | - Map SDK v1.0.1 <br/> - Place Search Widget v1.0.1 <br/> - GeoFence Widget v1.0.0 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 <br/> - Mappls Polyline v1.0.0 |
 
@@ -25,6 +25,7 @@ For more details of previous documentation versions , [click here](docs/v1.0.3/D
 ## [Version History](#Version-History)
 | Version | Last Updated | Author |  Release Note| 
 | ---- | ---- | ---- | ---- |
+| v1.1.2 | 23 December 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Added Option to set Base Url in Search and Routing Apis |
 | v1.1.1 | 28 October 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Bug Fixes and Improvements |
 | v1.1.0 | 24 July 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - All Dart enums have been migrated from mixed cases to lower camelcase according to the camel_case_types lint rule. <br/> - Added minimum Dart SDK support to 3.0 <br/> - Fixed Mappls Pin Marker issue in Flutter IOS |
 | v1.0.2 | 17 June 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Bug Fixes |
@@ -113,7 +114,7 @@ Need support? contact us!
 
 
 
-<div align="center">@ Copyright 2023 CE Info Systems Ltd. All Rights Reserved.</div>
+<div align="center">@ Copyright 2024 CE Info Systems Ltd. All Rights Reserved.</div>
 
 <div align="center"> <a href="https://about.mappls.com/api/terms-&-conditions">Terms & Conditions</a> | <a href="https://about.mappls.com/about/privacy-policy">Privacy Policy</a> | <a href="https://about.mappls.com/pdf/mapmyIndia-sustainability-policy-healt-labour-rules-supplir-sustainability.pdf">Supplier Sustainability Policy</a> | <a href="https://about.mappls.com/pdf/Health-Safety-Management.pdf">Health & Safety Policy</a> | <a href="https://about.mappls.com/pdf/Environment-Sustainability-Policy-CSR-Report.pdf">Environmental Policy & CSR Report</a>
 
