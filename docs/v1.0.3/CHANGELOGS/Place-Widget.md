@@ -1,3 +1,7 @@
+## 1.0.2, Dec 27, 2024
+* Added Option to change base url in Search and place picker
+* Resolve IOS search item click callback issue
+
 ## 1.0.1, Jan 04, 2023
 * Added `debounce` in place options
 * Added `isShowCurrentLocation` in place options
