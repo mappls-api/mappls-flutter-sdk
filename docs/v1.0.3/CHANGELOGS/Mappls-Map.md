@@ -1,4 +1,8 @@
-## v1.1.2, Dec 23, 2024 #
+## v1.2.0, May 12, 2025
+* Fix `PluginRegistry` issue in Android
+* Fix Bitcode issue in IOS
+
+## v1.1.2, Dec 23, 2024 
 * Added Option to set Base Url in Search and Routing Api
 
 ## v1.1.1, Oct 28, 2024 
