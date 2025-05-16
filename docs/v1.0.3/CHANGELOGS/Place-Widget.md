@@ -1,3 +1,6 @@
+## 1.0.3, May 16, 2025
+* Changes in POI Logic in Place Picker
+
 ## 1.0.2, Dec 27, 2024
 * Added Option to change base url in Search and place picker
 * Resolve IOS search item click callback issue
