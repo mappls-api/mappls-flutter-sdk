@@ -1,3 +1,9 @@
+## **Important Note** – Please read first
+
+> The [main](https://github.com/mappls-api/mappls-flutter-sdk/tree/main) branch contains the documentation for releases using the updated Authorization & Authentication mechanism introduced in August 2025.  
+> If you wish to use the releases that use the legacy authentication method based on OAuth 2.0, please refer to the [auth-legacy](https://github.com/mappls-api/mappls-flutter-sdk/tree/auth-legacy) branch.
+
+
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
 
 # Mappls Flutter SDK
@@ -6,7 +12,7 @@
 
 Powered with India's most comprehensive and robust mapping functionalities.
 
-1. You can get your api key to be used in this document here: [https://about.mappls.com/api/signup](https://about.mappls.com/api/signup)
+1. You can get your api key to be used in this document here: [Mappls Dashboard](https://auth.mappls.com/console)
 
 2. The sample code is provided to help you understand the basic functionality of Mappls maps & REST APIs working on **Flutter** development platform.
 
@@ -14,85 +20,103 @@ Powered with India's most comprehensive and robust mapping functionalities.
 
 ## [Documentation History](#Documentation-History)
 
-| Version | Supported SDK Version                                                                                                                                                             |  
-| ---- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|    
-| [v1.0.3](docs/v1.0.3/README.md) | - Map SDK v1.2.0 <br/> - Place Search Widget v1.0.3 <br/> - GeoFence Widget v1.0.0 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 <br/> - Mappls Polyline v1.0.0 |
-| [v1.0.2](docs/v1.0.2/README.md) | - Map SDK v1.0.2 <br/> - Place Search Widget v1.0.1 <br/> - GeoFence Widget v1.0.0 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 <br/> - Mappls Polyline v1.0.0 |
-| [v1.0.1](docs/v1.0.1/README.md) | - Map SDK v1.0.1 <br/> - Place Search Widget v1.0.1 <br/> - GeoFence Widget v1.0.0 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 <br/> - Mappls Polyline v1.0.0 |
+| Version | Supported SDK Version |  
+| ---- | ---- |    
+| [v2.0.0](docs/v2.0.0/README.md) | - Map SDK v2.0.0 |
 
-For more details of previous documentation versions , [click here](docs/v1.0.3/Documentation-History.md).
+For more details of previous documentation versions , [click here](docs/v2.0.0/Doc-History.md)
 
-## [Version History](#Version-History)
-| Version | Last Updated | Author |  Release Note| 
-| ---- | ---- | ---- | ---- |
-| v1.2.0 | 12 May 2025 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Fix `PluginRegistry` issue in Android <br/> - Fix Bitcode issue in IOS |
-| v1.1.2 | 23 December 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Added Option to set Base Url in Search and Routing Apis |
-| v1.1.1 | 28 October 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Bug Fixes and Improvements |
-| v1.1.0 | 24 July 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - All Dart enums have been migrated from mixed cases to lower camelcase according to the camel_case_types lint rule. <br/> - Added minimum Dart SDK support to 3.0 <br/> - Fixed Mappls Pin Marker issue in Flutter IOS |
-| v1.0.2 | 17 June 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Bug Fixes |
+## Table of Contents
+- [Getting Started](docs/v2.0.0/Getting-Started.md)
+  - [Installation](docs/v2.0.0/Add-Mappls-SDK.md#installation)
+  - [Android Setup](docs/v2.0.0/Add-Mappls-SDK.md#android-setup)
+  - [iOS Setup](docs/v2.0.0/Add-Mappls-SDK.md#ios-setup)
+  - [Web Setup](docs/v2.0.0/Add-Mappls-SDK.md#web-setup)
 
-For more details of previous versions , [click here](docs/v1.0.3/Version-History.md).
+- [Mappls Map SDK](docs/v2.0.0/Add-Mappls-Map.md)
+  - [Version History](docs/v2.0.0/Add-Mappls-Map.md#version-history)
+  - [Import Flutter Map](docs/v2.0.0/Add-Mappls-Map.md#import-flutter-map)
+  - [Add Flutter Mappls Map](docs/v2.0.0/Add-Mappls-Map.md#add-flutter-mappls-map)
 
-## [Table Of Content](#Table-Of-Content)
-- [Vector Flutter Map](docs/v1.0.3/Getting-Started.md)
-  - [Getting Started](docs/v1.0.3/Getting-Started.md#getting-started)
-  - [API Usage](docs/v1.0.3/Getting-Started.md#api-usage)
-  - [Installation](docs/v1.0.3/Getting-Started.md#installation)
-  - [Add Your API keys to the SDK](docs/v1.0.3/Getting-Started.md#add-your-api-keys-to-the-sdk)
-  - [Add Mappls Map to your application](docs/v1.0.3/Getting-Started.md#add-mappls-map-to-your-application)
-  - [Map Interactions](docs/v1.0.3/Getting-Started.md#map-interactions)
-  - [Map Events](docs/v1.0.3/Getting-Started.md#map-events)
-  - [Map Overlays](docs/v1.0.3/Getting-Started.md#map-overlays)
-    - [Add a Marker](docs/v1.0.3/Getting-Started.md#add-a-marker)
-    - [Remove a Marker](docs/v1.0.3/Getting-Started.md#remove-a-marker)
-    - [Customize a marker](docs/v1.0.3/Getting-Started.md#customize-a-marker)
-    - [Add a Polyline](docs/v1.0.3/Getting-Started.md#add-a-polyline)
-    - [Remove a Polyline](docs/v1.0.3/Getting-Started.md#remove-a-polyline)
-    - [Add a Polygon](docs/v1.0.3/Getting-Started.md#add-a-polygon)
-    - [Remove a Polygon](docs/v1.0.3/Getting-Started.md#remove-a-polygon)
-    - [Show User location](docs/v1.0.3/Getting-Started.md#show-user-location)
-- [Map Ui Settings](docs/v1.0.3/Map-Ui-Settings.md)
-  - [Compass Setting](docs/v1.0.3/Map-Ui-Settings.md#compass-settings)
-  - [Logo Settings](docs/v1.0.3/Map-Ui-Settings.md#logo-settings)
-  - [Enable/ Disable Map Rotation Gesture](docs/v1.0.3/Map-Ui-Settings.md#enable-disable-map-rotation-gesture)
-  - [Enable/Disable Map Scrolling Gesture](docs/v1.0.3/Map-Ui-Settings.md#enabledisable-map-scrolling-gesture)
-  - [Enable/ Disable Map Tilt Gesture](docs/v1.0.3/Map-Ui-Settings.md#enable-disable-map-tilt-gesture)
-  - [Enable/Disable Zoom Gesture](docs/v1.0.3/Map-Ui-Settings.md#enabledisable-zoom-gesture)
-- [Set Mappls Map style](docs/v1.0.3/Mappls-Map-Style.md)
-  - [List of Available Styles](docs/v1.0.3/Mappls-Map-Style.md#list-of-available-styles)
-  - [Set Mappls Style](docs/v1.0.3/Mappls-Map-Style.md#set-mappls-style)
-  - [To enable/disable last selected style](docs/v1.0.3/Mappls-Map-Style.md#to-enabledisable-last-selected-style)
-  - [Get Selected style](docs/v1.0.3/Mappls-Map-Style.md#get-selected-style)
-- [Rest APIs]
-  - [Search APIs](docs/v1.0.3/Search-Api.md)
-    - [Autosuggest](docs/v1.0.3/Search-Api.md#auto-suggest)
-    - [Geocoding](docs/v1.0.3/Search-Api.md#geocoding)
-    - [Reverse Geocoding](docs/v1.0.3/Search-Api.md#reverse-geocoding)
-    - [Nearby Places](docs/v1.0.3/Search-Api.md#nearby-places)
-    - [Place Details](docs/v1.0.3/Search-Api.md#place-details)
-    - [POI Along the Route](docs/v1.0.3/Search-Api.md#poi-along-the-route)
-  - [Routes & Navigation API](docs/v1.0.3/Routing-Api.md)
-    - [Routing API](docs/v1.0.3/Routing-Api.md#routing-api)
-    - [Driving Distance Matrix API](docs/v1.0.3/Routing-Api.md#driving-distance-matrix-api)
-- [Mappls Pin Strategy](docs/v1.0.3/Mappls-Pin-Strategy.md)
-- [Mappls Search Widget](docs/v1.0.3/Place-Autocomplete-Widget.md)
-  - [Getting Started](docs/v1.0.3/Place-Autocomplete-Widget.md#getting-started)
-  - [Adding Mappls Keys](docs/v1.0.3/Place-Autocomplete-Widget.md#adding-mappls-keys)
-  - [Place Autocomplete](docs/v1.0.3/Place-Autocomplete-Widget.md#place-autocomplete)
-  - [Place Picker](docs/v1.0.3/Place-Autocomplete-Widget.md#place-picker)
-- [Mappls Direction Widget](docs/v1.0.3/Direction-Ui.md)
-  - [Getting Started](docs/v1.0.3/Direction-Ui.md#getting-started)
-  - [Adding Mappls Keys](docs/v1.0.3/Direction-Ui.md#adding-mappls-keys)
-  - [Add Direction Widget](docs/v1.0.3/Direction-Ui.md#add-direction-widget)
-- [Mappls Nearby Widget](docs/v1.0.3/Nearby-Widget.md)
-  - [Getting Started](docs/v1.0.3/Nearby-Widget.md#getting-started)
-  - [Adding Mappls Keys](docs/v1.0.3/Nearby-Widget.md#adding-mappls-keys)
-  - [Add Nearby Widget](docs/v1.0.3/Nearby-Widget.md#add-nearby-widget)
+  - [Map Gestures](docs/v2.0.0/Map-Gestures.md)  
+    - [Target](docs/v2.0.0/Map-Gestures.md#target)  
+    - [Tilt](docs/v2.0.0/Map-Gestures.md#tilt)  
+    - [Bearing](docs/v2.0.0/Map-Gestures.md#bearing)  
+    - [Zoom](docs/v2.0.0/Map-Gestures.md#zoom)  
+
+  - [Map Camera](docs/v2.0.0/Map-Camera.md)  
+    - [Camera Position](docs/v2.0.0/Map-Camera.md#camera-position)  
+    - [Set Camera Position On Map](docs/v2.0.0/Map-Camera.md#set-camera-position-on-map)  
+    - [Camera Animations](docs/v2.0.0/Map-Camera.md#camera-animations)  
+      - [Move Camera](docs/v2.0.0/Map-Camera.md#move-camera)  
+      - [Ease Camera](docs/v2.0.0/Map-Camera.md#ease-camera)  
+      - [Animate Camera](docs/v2.0.0/Map-Camera.md#animate-camera)  
+
+  - [Camera Control](docs/v2.0.0/Camera-Control.md)  
+    - [Move To Target](docs/v2.0.0/Camera-Control.md#move-to-target)  
+    - [Move To Target with Zoom](docs/v2.0.0/Camera-Control.md#move-to-target-with-zoom)  
+    - [Move To Bound](docs/v2.0.0/Camera-Control.md#move-to-bound)  
+    - [Zoom To](docs/v2.0.0/Camera-Control.md#zoom-to)  
+    - [Zoom By](docs/v2.0.0/Camera-Control.md#zoom-by)  
+    - [Zoom In](docs/v2.0.0/Camera-Control.md#zoom-in)  
+    - [Zoom Out](docs/v2.0.0/Camera-Control.md#zoom-out)  
+
+  - [Map Events](docs/v2.0.0/Map-Events.md)  
+    - [Map Click Event](docs/v2.0.0/Map-Events.md#map-click-event)  
+    - [Map Long Click Event](docs/v2.0.0/Map-Events.md#map-long-click-event)  
+    - [Camera Movement Ended](docs/v2.0.0/Map-Events.md#camera-movement-ended)  
+
+  - [Map Overlays](docs/v2.0.0/Map-Overlay.md)  
+    - [Marker](docs/v2.0.0/Map-Overlay.md#marker)  
+      - [Add Marker](docs/v2.0.0/Map-Overlay.md#add-marker)  
+      - [Custom Marker](docs/v2.0.0/Map-Overlay.md#custom-marker)  
+      - [Remove Marker](docs/v2.0.0/Map-Overlay.md#remove-marker)  
+    - [Polyline](docs/v2.0.0/Map-Overlay.md#polyline)  
+      - [Add Polyline](docs/v2.0.0/Map-Overlay.md#add-polyline)  
+      - [Remove Polyline](docs/v2.0.0/Map-Overlay.md#remove-polyline)  
+    - [Polygon](docs/v2.0.0/Map-Overlay.md#polygon)  
+      - [Add Polygon](docs/v2.0.0/Map-Overlay.md#add-polygon)  
+      - [Remove Polygon](docs/v2.0.0/Map-Overlay.md#remove-polygon)  
+
+  - [Show Current Location](docs/v2.0.0/Show-User-Location.md)  
+    - [Show/Hide Current Location On Map](docs/v2.0.0/Show-User-Location.md#showhide-current-location-on-map)  
+    - [Location Update Callback](docs/v2.0.0/Show-User-Location.md#location-update-callback)  
+    - [Tracking Mode](docs/v2.0.0/Show-User-Location.md#tracking-mode)  
+    - [Render Mode](docs/v2.0.0/Show-User-Location.md#render-mode)  
+
+  - [Map UI Settings](docs/v2.0.0/Map-UI-Settings.md)  
+    - [Compass Settings](docs/v2.0.0/Map-UI-Settings.md#compass-settings)  
+      - [Enable/Disable Compass](docs/v2.0.0/Map-UI-Settings.md#enable-disable-compass)  
+      - [Gravity of Compass](docs/v2.0.0/Map-UI-Settings.md#gravity-of-compass)  
+      - [Margins of Compass](docs/v2.0.0/Map-UI-Settings.md#margins-of-compass)  
+    - [Logo Settings](docs/v2.0.0/Map-UI-Settings.md#logo-settings)  
+      - [Gravity of Logo](docs/v2.0.0/Map-UI-Settings.md#gravity-of-logo)  
+      - [Margin of Logo](docs/v2.0.0/Map-UI-Settings.md#margin-of-logo)  
+    - [Enable/Disable Double Tap Zoom](docs/v2.0.0/Map-UI-Settings.md#enabledisable-double-tap-zoom)  
+    - [Enable/Disable Map Rotation Gesture](docs/v2.0.0/Map-UI-Settings.md#enable-disable-map-rotation-gesture)  
+    - [Enable/Disable Map Scrolling Gesture](docs/v2.0.0/Map-UI-Settings.md#enabledisable-map-scrolling-gesture)  
+    - [Enable/Disable Map Tilt Gesture](docs/v2.0.0/Map-UI-Settings.md#enable-disable-map-tilt-gesture)  
+    - [Enable/Disable Zoom Gesture](docs/v2.0.0/Map-UI-Settings.md#enabledisable-zoom-gesture)  
+
+- [Mappls REST API](docs/v2.0.0/Mappls-Rest-Apis.md)  
+  - [Search API](docs/v2.0.0/Search-Api.md)  
+    - [Auto Suggest](docs/v2.0.0/Search-Api.md#auto-suggest)  
+    - [Geocoding](docs/v2.0.0/Search-Api.md#geocoding)  
+    - [Reverse Geocoding](docs/v2.0.0/Search-Api.md#reverse-geocoding)  
+    - [Nearby Places](docs/v2.0.0/Search-Api.md#nearby-places)  
+    - [Place Details](docs/v2.0.0/Search-Api.md#place-details)  
+    - [POI Along the Route](docs/v2.0.0/Search-Api.md#poi-along-the-route)  
+
+  - [Routes & Navigation API](docs/v2.0.0/Routing-Api.md)  
+    - [Routing API](docs/v2.0.0/Routing-Api.md#routing-api)  
+    - [Driving Distance Matrix API](docs/v2.0.0/Routing-Api.md#driving-distance-matrix-api)  
+
+- [Country List](https://github.com/mappls-api/mappls-rest-apis/blob/main/docs/countryISO.md)
 
 
 <br><br><br>
 
-For any queries and support, please contact:
+For any queries and support, please contact: 
 
 [<img src="https://about.mappls.com/images/mappls-logo.svg" height="40"/> </p>](https://about.mappls.com/api/)
 Email us at [apisupport@mappls.com](mailto:apisupport@mappls.com)
@@ -105,7 +129,7 @@ Need support? contact us!
 <br></br>
 <br></br>
 
-[<p align="center"> <img src="https://www.mapmyindia.com/api/img/icons/stack-overflow.png"/> ](https://stackoverflow.com/questions/tagged/mappls-api)[![](https://www.mapmyindia.com/api/img/icons/blog.png)](https://about.mappls.com/blog/)[![](https://www.mapmyindia.com/api/img/icons/gethub.png)](https://github.com/Mappls-api)[<img src="https://mmi-api-team.s3.ap-south-1.amazonaws.com/API-Team/npm-logo.one-third%5B1%5D.png" height="40"/> </p>](https://www.npmjs.com/org/mapmyindia)
+[<p align="center"> <img src="https://www.mapmyindia.com/api/img/icons/stack-overflow.png"/> ](https://stackoverflow.com/questions/tagged/mappls-api)[![](https://www.mapmyindia.com/api/img/icons/blog.png)](https://about.mappls.com/blog/)[![](https://www.mapmyindia.com/api/img/icons/gethub.png)](https://github.com/Mappls-api)[<img src="https://mmi-api-team.s3.ap-south-1.amazonaws.com/API-Team/npm-logo.one-third%5B1%5D.png" height="40"/> </p>](https://www.npmjs.com/org/mapmyindia) 
 
 
 
@@ -114,7 +138,7 @@ Need support? contact us!
 
 
 
-<div align="center">@ Copyright 2024 CE Info Systems Ltd. All Rights Reserved.</div>
+<div align="center">@ Copyright 2025 CE Info Systems Ltd. All Rights Reserved.</div>
 
 <div align="center"> <a href="https://about.mappls.com/api/terms-&-conditions">Terms & Conditions</a> | <a href="https://about.mappls.com/about/privacy-policy">Privacy Policy</a> | <a href="https://about.mappls.com/pdf/mapmyIndia-sustainability-policy-healt-labour-rules-supplir-sustainability.pdf">Supplier Sustainability Policy</a> | <a href="https://about.mappls.com/pdf/Health-Safety-Management.pdf">Health & Safety Policy</a> | <a href="https://about.mappls.com/pdf/Environment-Sustainability-Policy-CSR-Report.pdf">Environmental Policy & CSR Report</a>
 
