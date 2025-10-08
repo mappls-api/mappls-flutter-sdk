@@ -32,18 +32,15 @@ For more details of previous documentation versions , [click here](docs/v2.0.0/D
   - [Android Setup](docs/v2.0.0/Add-Mappls-SDK.md#android-setup)
   - [iOS Setup](docs/v2.0.0/Add-Mappls-SDK.md#ios-setup)
   - [Web Setup](docs/v2.0.0/Add-Mappls-SDK.md#web-setup)
-
 - [Mappls Map SDK](docs/v2.0.0/Add-Mappls-Map.md)
   - [Version History](docs/v2.0.0/Add-Mappls-Map.md#version-history)
   - [Import Flutter Map](docs/v2.0.0/Add-Mappls-Map.md#import-flutter-map)
   - [Add Flutter Mappls Map](docs/v2.0.0/Add-Mappls-Map.md#add-flutter-mappls-map)
-
   - [Map Gestures](docs/v2.0.0/Map-Gestures.md)  
     - [Target](docs/v2.0.0/Map-Gestures.md#target)  
     - [Tilt](docs/v2.0.0/Map-Gestures.md#tilt)  
     - [Bearing](docs/v2.0.0/Map-Gestures.md#bearing)  
     - [Zoom](docs/v2.0.0/Map-Gestures.md#zoom)  
-
   - [Map Camera](docs/v2.0.0/Map-Camera.md)  
     - [Camera Position](docs/v2.0.0/Map-Camera.md#camera-position)  
     - [Set Camera Position On Map](docs/v2.0.0/Map-Camera.md#set-camera-position-on-map)  
@@ -51,7 +48,6 @@ For more details of previous documentation versions , [click here](docs/v2.0.0/D
       - [Move Camera](docs/v2.0.0/Map-Camera.md#move-camera)  
       - [Ease Camera](docs/v2.0.0/Map-Camera.md#ease-camera)  
       - [Animate Camera](docs/v2.0.0/Map-Camera.md#animate-camera)  
-
   - [Camera Control](docs/v2.0.0/Camera-Control.md)  
     - [Move To Target](docs/v2.0.0/Camera-Control.md#move-to-target)  
     - [Move To Target with Zoom](docs/v2.0.0/Camera-Control.md#move-to-target-with-zoom)  
@@ -60,12 +56,10 @@ For more details of previous documentation versions , [click here](docs/v2.0.0/D
     - [Zoom By](docs/v2.0.0/Camera-Control.md#zoom-by)  
     - [Zoom In](docs/v2.0.0/Camera-Control.md#zoom-in)  
     - [Zoom Out](docs/v2.0.0/Camera-Control.md#zoom-out)  
-
   - [Map Events](docs/v2.0.0/Map-Events.md)  
     - [Map Click Event](docs/v2.0.0/Map-Events.md#map-click-event)  
     - [Map Long Click Event](docs/v2.0.0/Map-Events.md#map-long-click-event)  
     - [Camera Movement Ended](docs/v2.0.0/Map-Events.md#camera-movement-ended)  
-
   - [Map Overlays](docs/v2.0.0/Map-Overlay.md)  
     - [Marker](docs/v2.0.0/Map-Overlay.md#marker)  
       - [Add Marker](docs/v2.0.0/Map-Overlay.md#add-marker)  
@@ -77,13 +71,11 @@ For more details of previous documentation versions , [click here](docs/v2.0.0/D
     - [Polygon](docs/v2.0.0/Map-Overlay.md#polygon)  
       - [Add Polygon](docs/v2.0.0/Map-Overlay.md#add-polygon)  
       - [Remove Polygon](docs/v2.0.0/Map-Overlay.md#remove-polygon)  
-
   - [Show Current Location](docs/v2.0.0/Show-User-Location.md)  
     - [Show/Hide Current Location On Map](docs/v2.0.0/Show-User-Location.md#showhide-current-location-on-map)  
     - [Location Update Callback](docs/v2.0.0/Show-User-Location.md#location-update-callback)  
     - [Tracking Mode](docs/v2.0.0/Show-User-Location.md#tracking-mode)  
     - [Render Mode](docs/v2.0.0/Show-User-Location.md#render-mode)  
-
   - [Map UI Settings](docs/v2.0.0/Map-UI-Settings.md)  
     - [Compass Settings](docs/v2.0.0/Map-UI-Settings.md#compass-settings)  
       - [Enable/Disable Compass](docs/v2.0.0/Map-UI-Settings.md#enable-disable-compass)  
@@ -97,7 +89,6 @@ For more details of previous documentation versions , [click here](docs/v2.0.0/D
     - [Enable/Disable Map Scrolling Gesture](docs/v2.0.0/Map-UI-Settings.md#enabledisable-map-scrolling-gesture)  
     - [Enable/Disable Map Tilt Gesture](docs/v2.0.0/Map-UI-Settings.md#enable-disable-map-tilt-gesture)  
     - [Enable/Disable Zoom Gesture](docs/v2.0.0/Map-UI-Settings.md#enabledisable-zoom-gesture)  
-
 - [Mappls REST API](docs/v2.0.0/Mappls-Rest-Apis.md)  
   - [Search API](docs/v2.0.0/Search-Api.md)  
     - [Auto Suggest](docs/v2.0.0/Search-Api.md#auto-suggest)  
@@ -106,11 +97,14 @@ For more details of previous documentation versions , [click here](docs/v2.0.0/D
     - [Nearby Places](docs/v2.0.0/Search-Api.md#nearby-places)  
     - [Place Details](docs/v2.0.0/Search-Api.md#place-details)  
     - [POI Along the Route](docs/v2.0.0/Search-Api.md#poi-along-the-route)  
-
   - [Routes & Navigation API](docs/v2.0.0/Routing-Api.md)  
     - [Routing API](docs/v2.0.0/Routing-Api.md#routing-api)  
     - [Driving Distance Matrix API](docs/v2.0.0/Routing-Api.md#driving-distance-matrix-api)  
-
+- [Mappls Search Widget](docs/v2.0.0/Place-Autocomplete-Widget.md)
+  - [Getting Started](docs/v2.0.0/Place-Autocomplete-Widget.md#getting-started)
+  - [Import Search Widget](docs/v2.0.0/Place-Autocomplete-Widget.md#import-search-widget)
+  - [Place Autocomplete](docs/v2.0.0/Place-Autocomplete-Widget.md#place-autocomplete)
+  - [Place Picker](docs/v2.0.0/Place-Autocomplete-Widget.md#place-picker)
 - [Country List](https://github.com/mappls-api/mappls-rest-apis/blob/main/docs/countryISO.md)
 
 

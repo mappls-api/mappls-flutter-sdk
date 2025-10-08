@@ -99,7 +99,12 @@ For more details of previous documentation versions , [click here](./Doc-History
         - [POI Along the Route](./Search-Api.md#poi-along-the-route)
     * [Routes & Navigation API](./Routing-Api.md)
         - [Routing API](./Routing-Api.md#routing-api)
-        - [Driving Distance Matrix API](./Routing-Api.md#driving-distance-matrix-api)
+        - [Driving Distance Matrix API](./Routing-Api.md#driving-distance-matrix-api)  
+- [Mappls Search Widget](./Place-Autocomplete-Widget.md)
+    - [Getting Started](./Place-Autocomplete-Widget.md#getting-started)
+    - [Import Search Widget](./Place-Autocomplete-Widget.md#import-search-widget)
+    - [Place Autocomplete](./Place-Autocomplete-Widget.md#place-autocomplete)
+    - [Place Picker](./Place-Autocomplete-Widget.md#place-picker)
 - [Country List](https://github.com/mappls-api/mappls-rest-apis/blob/main/docs/countryISO.md)
 
 <br><br><br>
