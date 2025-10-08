@@ -20,9 +20,9 @@ Powered with India's most comprehensive and robust mapping functionalities.
 
 ## [Documentation History](#Documentation-History)
 
-| Version | Supported SDK Version |  
-| ---- | ---- |    
-| [v2.0.0](docs/v2.0.0/README.md) | - Map SDK v2.0.0 |
+| Version | Supported SDK Version                               |  
+| ---- |-----------------------------------------------------|    
+| [v2.0.0](docs/v2.0.0/README.md) | - Map SDK v2.0.0 <br/> - Place Search Widget v2.0.0 |
 
 For more details of previous documentation versions , [click here](docs/v2.0.0/Doc-History.md)
 
