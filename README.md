@@ -22,7 +22,7 @@ Powered with India's most comprehensive and robust mapping functionalities.
 
 | Version | Supported SDK Version                               |  
 | ---- |-----------------------------------------------------|    
-| [v2.0.0](docs/v2.0.0/README.md) | - Map SDK v2.0.0 <br/> - Place Search Widget v2.0.0 |
+| [v2.0.0](docs/v2.0.0/README.md) | - Map SDK v2.0.0 <br/> - Place Search Widget v2.0.0 <br/> - Direction Widget v2.0.0 <br/> - Nearby Widget v2.0.0 |
 
 For more details of previous documentation versions , [click here](docs/v2.0.0/Doc-History.md)
 
@@ -105,6 +105,14 @@ For more details of previous documentation versions , [click here](docs/v2.0.0/D
   - [Import Search Widget](docs/v2.0.0/Place-Autocomplete-Widget.md#import-search-widget)
   - [Place Autocomplete](docs/v2.0.0/Place-Autocomplete-Widget.md#place-autocomplete)
   - [Place Picker](docs/v2.0.0/Place-Autocomplete-Widget.md#place-picker)
+- [Mappls Direction Widget](docs/v2.0.0/Direction-Ui.md)
+  - [Getting Started](docs/v2.0.0/Direction-Ui.md#getting-started)
+  - [Import Direction Widget](docs/v2.0.0/Direction-Ui.md#import-direction-widget)
+  - [Open Direction Widget](docs/v2.0.0/Direction-Ui.md#open-direction-widget)
+- [Mappls Nearby Widget](docs/v2.0.0/Nearby-Widget.md)
+  - [Getting Started](docs/v2.0.0/Nearby-Widget.md#getting-started)
+  - [Import Nearby Widget](docs/v2.0.0/Nearby-Widget.md#import-nearby-widget)
+  - [Open Nearby Widget](docs/v2.0.0/Nearby-Widget.md#open-nearby-widget)
 - [Country List](https://github.com/mappls-api/mappls-rest-apis/blob/main/docs/countryISO.md)
 
 

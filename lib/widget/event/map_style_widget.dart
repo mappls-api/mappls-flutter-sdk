@@ -18,7 +18,6 @@ class _MapStyleState extends State<MapStyleWidget> {
   );
 
   MapplsMapController? _mapController;
-  bool _isLoadMap = false;
   List<MapplsStyle> _styles = [];
   String? styleName = null;
 
@@ -53,7 +52,6 @@ class _MapStyleState extends State<MapStyleWidget> {
             mapplsStyle: styleName,
             onMapCreated: (controller) async {
               _mapController = controller;
-              setState(() => _isLoadMap = true);
               await _loadAvailableStyles();
             },
           ),

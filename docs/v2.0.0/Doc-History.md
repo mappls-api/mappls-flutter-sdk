@@ -2,4 +2,4 @@
 
 | Version | Supported SDK Version |  
 | ---- | ---- |    
-| [v2.0.0](./README.md) | - Map SDK v2.0.0 <br/> - Place Search Widget v2.0.0 |
+| [v2.0.0](./README.md) | - Map SDK v2.0.0 <br/> - Place Search Widget v2.0.0 <br/> - Direction Widget v2.0.0 <br/> - Nearby Widget v2.0.0 |

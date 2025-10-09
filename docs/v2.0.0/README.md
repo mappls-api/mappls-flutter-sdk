@@ -22,7 +22,7 @@ Powered with India's most comprehensive and robust mapping functionalities.
 
 | Version | Supported SDK Version |  
 | ---- | ---- |    
-| [v2.0.0](./README.md) | - Map SDK v2.0.0 <br/> - Place Search Widget v2.0.0 |
+| [v2.0.0](./README.md) | - Map SDK v2.0.0 <br/> - Place Search Widget v2.0.0 <br/> - Direction Widget v2.0.0 <br/> - Nearby Widget v2.0.0 |
 
 For more details of previous documentation versions , [click here](./Doc-History.md)
 
@@ -105,6 +105,14 @@ For more details of previous documentation versions , [click here](./Doc-History
     - [Import Search Widget](./Place-Autocomplete-Widget.md#import-search-widget)
     - [Place Autocomplete](./Place-Autocomplete-Widget.md#place-autocomplete)
     - [Place Picker](./Place-Autocomplete-Widget.md#place-picker)
+- [Mappls Direction Widget](./Direction-Ui.md)
+    - [Getting Started](./Direction-Ui.md#getting-started)
+    - [Import Direction Widget](./Direction-Ui.md#import-direction-widget)
+    - [Open Direction Widget](./Direction-Ui.md#open-direction-widget)
+- [Mappls Nearby Widget](./Nearby-Widget.md)
+    - [Getting Started](./Nearby-Widget.md#getting-started)
+    - [Import Nearby Widget](./Nearby-Widget.md#import-nearby-widget)
+    - [Open Nearby Widget](./Nearby-Widget.md#open-nearby-widget)
 - [Country List](https://github.com/mappls-api/mappls-rest-apis/blob/main/docs/countryISO.md)
 
 <br><br><br>

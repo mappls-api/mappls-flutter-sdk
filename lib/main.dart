@@ -7,6 +7,8 @@ import 'package:mappls_flutter_demo/widget/event/map_style_widget.dart';
 import 'package:mappls_flutter_demo/widget/event/map_traffic_widget.dart';
 import 'package:mappls_flutter_demo/widget/home_widget.dart';
 import 'package:mappls_flutter_demo/widget/event/map_click_widget.dart';
+import 'package:mappls_flutter_demo/widget/layers/heat_map_layer_widget.dart';
+import 'package:mappls_flutter_demo/widget/layers/indoor_widget.dart';
 import 'package:mappls_flutter_demo/widget/sub_category_widget.dart';
 import 'package:mappls_flutter_demo/widget/splash_widget.dart';
 
@@ -24,6 +26,7 @@ class MyApp extends StatelessWidget {
       title: 'Mappls Flutter Demo',
       theme: ThemeData(
 
+        // appBarTheme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(1, 27, 30, 39))),
         scaffoldBackgroundColor: MapplsColor.primaryColor,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
@@ -36,6 +39,8 @@ class MyApp extends StatelessWidget {
         '/map_long_click': (BuildContext context) => MapLongClickWidget(),
         '/map_style':(BuildContext context) => MapStyleWidget(),
         '/map_traffic':(BuildContext context) => MapTrafficWidget(),
+        '/heat_map':(BuildContext context) => HeatMapLayerWidget(),
+        '/map_indoor':(BuildContext context) => IndoorWidget(),
       },
     );
   }
