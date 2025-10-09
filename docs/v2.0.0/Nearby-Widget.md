@@ -20,7 +20,7 @@ This can be done by following simple steps.
 To work with Mappls nearby Widget in flutter add these to your package's pubspec.yaml file:
 ~~~yaml  
 dependencies:  
-  mappls_nearby_plugin: ^1.0.0
+  mappls_nearby_plugin: ^2.0.0
 ~~~  
 
 
