@@ -4,7 +4,7 @@
 
 | Version | Supported SDK Version |  
 | ---- | ---- |    
-| [v1.0.0](docs/v1.0.0/README.md) | - Map SDK v1.0.0 <br/> - Place Search Widget v1.0.0 <br/> - GeoFence Widget v1.0.0 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 <br/> - Mappls Polyline v1.0.0 |
+| [v1.0.0](docs/v1.0.0/README.md) | - Map SDK v1.0.0 <br/> - Place Search Widget v1.0.0 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 |
 
 <br></br>
 

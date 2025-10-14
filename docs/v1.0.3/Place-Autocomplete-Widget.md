@@ -9,7 +9,7 @@ Mappls Search Widget contains Place Autocomplete and Place Picker
 To work with Mappls Search Widget in flutter add these to your package's pubspec.yaml file:
 ~~~yaml  
 dependencies:  
-	mappls_place_widget: ^1.0.3
+	mappls_place_widget: ^1.0.4
 ~~~  
 
 Now in your dart code you need to import this package:

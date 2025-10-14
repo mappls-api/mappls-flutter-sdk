@@ -35,12 +35,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  mappls_gl: ^1.2.0
+  mappls_gl: ^1.2.1
   location: ^7.0.0
   fluttertoast: ^8.2.1
-  mappls_place_widget: ^1.0.3
+  mappls_place_widget: ^1.0.4
   mappls_direction_plugin: ^1.0.0
-  mappls_nearby_plugin: ^1.0.0
+  mappls_nearby_plugin: ^1.0.1
   turf: ^0.0.7
 
 dev_dependencies:

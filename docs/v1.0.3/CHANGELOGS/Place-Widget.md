@@ -1,3 +1,6 @@
+## 1.0.4, Oct 14, 2025
+* Added Android 15 Support
+
 ## 1.0.3, May 16, 2025
 * Changes in POI Logic in Place Picker
 

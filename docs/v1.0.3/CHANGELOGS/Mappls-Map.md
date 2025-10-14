@@ -1,3 +1,6 @@
+## v1.2.1, Oct 14, 2025
+* Support for 16 KB in Android
+
 ## v1.2.0, May 12, 2025
 * Fix `PluginRegistry` issue in Android
 * Fix Bitcode issue in IOS

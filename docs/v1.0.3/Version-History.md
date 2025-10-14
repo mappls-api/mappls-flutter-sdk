@@ -6,6 +6,7 @@
 
 | Version | Last Updated | Author |  Release Note|
 | ---- | ---- | ---- | ---- |
+| v1.2.1  | 14 October 2025  | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Support for 16KB in Android       |
 | v1.2.0 | 12 May 2025 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Fix `PluginRegistry` issue in Android <br/> - Fix Bitcode issue in IOS |
 | v1.1.2 | 23 December 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Added Option to set Base Url in Search and Routing Apis |
 | v1.1.1 | 28 October 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |   - Bug Fixes and Improvements |
