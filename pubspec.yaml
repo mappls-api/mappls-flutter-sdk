@@ -39,7 +39,7 @@ dependencies:
   location: ^7.0.0
   fluttertoast: ^8.2.1
   mappls_place_widget: ^1.0.4
-  mappls_direction_plugin: ^1.0.0
+  mappls_direction_plugin: ^1.0.1
   mappls_nearby_plugin: ^1.0.1
   turf: ^0.0.7
 

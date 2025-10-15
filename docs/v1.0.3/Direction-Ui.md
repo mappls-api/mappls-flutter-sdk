@@ -14,7 +14,7 @@ A ready to use Fragment to show the Routes in an Android platform. It offers the
 To work with Mappls Direction Widget in flutter add these to your package's pubspec.yaml file:
 ~~~yaml
 dependencies:
-	mappls_direction_plugin: ^1.0.0
+	mappls_direction_plugin: ^1.0.1
 ~~~
 
 Now in your dart code you need to import this package:
