@@ -164,10 +164,10 @@ packages:
     dependency: "direct main"
     description:
       name: mappls_gl
-      sha256: "02786a5b5cb2a7b73a471ec5b306da6bf3e1fa4be6c66b50d4c41c8f725de486"
+      sha256: "4bbba7771200bf412d4834a3858970f8225a1643c8cdb125d867b65795c89da9"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
+    version: "2.0.1"
   mappls_gl_platform_interface:
     dependency: transitive
     description:

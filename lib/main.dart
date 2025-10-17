@@ -1,12 +1,14 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:mappls_flutter_demo/utils/mappls_color.dart';
+import 'package:mappls_flutter_demo/widget/camera/camera_feature_widget.dart';
 import 'package:mappls_flutter_demo/widget/event/add_map_widget.dart';
 import 'package:mappls_flutter_demo/widget/event/map_long_click_widget.dart';
 import 'package:mappls_flutter_demo/widget/event/map_style_widget.dart';
 import 'package:mappls_flutter_demo/widget/event/map_traffic_widget.dart';
 import 'package:mappls_flutter_demo/widget/home_widget.dart';
 import 'package:mappls_flutter_demo/widget/event/map_click_widget.dart';
+import 'package:mappls_flutter_demo/widget/layers/geo_analytics_widget.dart';
 import 'package:mappls_flutter_demo/widget/layers/heat_map_layer_widget.dart';
 import 'package:mappls_flutter_demo/widget/layers/indoor_widget.dart';
 import 'package:mappls_flutter_demo/widget/sub_category_widget.dart';
@@ -41,6 +43,8 @@ class MyApp extends StatelessWidget {
         '/map_traffic':(BuildContext context) => MapTrafficWidget(),
         '/heat_map':(BuildContext context) => HeatMapLayerWidget(),
         '/map_indoor':(BuildContext context) => IndoorWidget(),
+        '/geo_analytics':(BuildContext context) => GeoAnalyticsWidget(),
+        '/camera_feature':(BuildContext context) => CameraFeatureWidget(),
       },
     );
   }
