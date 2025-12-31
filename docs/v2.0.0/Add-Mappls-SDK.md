@@ -6,7 +6,7 @@ To add Flutter Map SDk follow below steps:
 To work with Mappls Map in flutter add this to your package's pubspec.yaml file:
 ```yaml
 dependencies:
-    mappls_gl: 2.0.1
+    mappls_gl: 2.0.2
 ```
 
 ## Android Setup
