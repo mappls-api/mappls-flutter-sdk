@@ -22,7 +22,7 @@ Powered with India's most comprehensive and robust mapping functionalities.
 
 | Version | Supported SDK Version                                                                                            |  
 | ---- |------------------------------------------------------------------------------------------------------------------|    
-| [v2.0.0](docs/v2.0.0/README.md) | - Map SDK v2.0.2 <br/> - Place Search Widget v2.0.0 <br/> - Direction Widget v2.0.0 <br/> - Nearby Widget v2.0.0 |
+| [v2.0.0](docs/v2.0.0/README.md) | - Map SDK v2.0.3 <br/> - Place Search Widget v2.0.0 <br/> - Direction Widget v2.0.0 <br/> - Nearby Widget v2.0.0 |
 
 For more details of previous documentation versions, [click here](docs/v2.0.0/Doc-History.md)
 
@@ -140,7 +140,7 @@ Need support? contact us!
 
 
 
-<div align="center">@ Copyright 2025 CE Info Systems Ltd. All Rights Reserved.</div>
+<div align="center">@ Copyright 2026 CE Info Systems Ltd. All Rights Reserved.</div>
 
 <div align="center"> <a href="https://about.mappls.com/api/terms-&-conditions">Terms & Conditions</a> | <a href="https://about.mappls.com/about/privacy-policy">Privacy Policy</a> | <a href="https://about.mappls.com/pdf/mapmyIndia-sustainability-policy-healt-labour-rules-supplir-sustainability.pdf">Supplier Sustainability Policy</a> | <a href="https://about.mappls.com/pdf/Health-Safety-Management.pdf">Health & Safety Policy</a> | <a href="https://about.mappls.com/pdf/Environment-Sustainability-Policy-CSR-Report.pdf">Environmental Policy & CSR Report</a>
 

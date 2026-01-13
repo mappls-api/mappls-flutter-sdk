@@ -6,6 +6,7 @@ Mappls Map SDK is a powerful and versatile software development kit that enables
 
 | Version | Last Updated | Author | Release Note                                                                                                                                                                                                                                     | 
 |---------|--------------| ---- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| v2.0.3  | 13 Jan, 2026 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes and Improvement                                                                                                                                                                                                                      |
 | v2.0.2  | 31 Dec, 2025 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes and Improvement                                                                                                                                                                                                                      |
 | v2.0.1  | 17 Oct, 2025 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes and Improvement                                                                                                                                                                                                                      |
 | v2.0.0  | 15 Sep, 2025 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Authentication and authorization mechanisms have been revised. </br> - Updated minimum Android version to 21. </br> - Added Support for 16 KB Page Sizes in Android </br> - Added SPM(Swift Package Manager in IOS) </br> - Initial Web Support |
@@ -56,7 +57,7 @@ Need support? contact us!
 
 
 
-<div align="center">@ Copyright 2025 CE Info Systems Ltd. All Rights Reserved.</div>
+<div align="center">@ Copyright 2026 CE Info Systems Ltd. All Rights Reserved.</div>
 
 <div align="center"> <a href="https://about.mappls.com/api/terms-&-conditions">Terms & Conditions</a> | <a href="https://about.mappls.com/about/privacy-policy">Privacy Policy</a> | <a href="https://about.mappls.com/pdf/mapmyIndia-sustainability-policy-healt-labour-rules-supplir-sustainability.pdf">Supplier Sustainability Policy</a> | <a href="https://about.mappls.com/pdf/Health-Safety-Management.pdf">Health & Safety Policy</a> | <a href="https://about.mappls.com/pdf/Environment-Sustainability-Policy-CSR-Report.pdf">Environmental Policy & CSR Report</a>
 

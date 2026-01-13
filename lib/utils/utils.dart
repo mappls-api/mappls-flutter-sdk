@@ -430,6 +430,13 @@ class Utils {
       icon: 'assets/indoor_map_icon.png',
       route: '/camera_feature',
     ),
+    SubCategoryModel(
+      name: 'Camera Features in Mappls Pin',
+      description:
+      'Animate, Move or ease camera using mappls pin',
+      icon: 'assets/indoor_map_icon.png',
+      route: '/mappls_pin_camera_feature',
+    ),
   ];
 
   static List<SubCategoryModel> getSubCategoryList(int type) {

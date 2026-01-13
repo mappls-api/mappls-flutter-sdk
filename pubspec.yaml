@@ -37,7 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   permission_handler: ^12.0.1
   fluttertoast: ^9.0.0
-  mappls_gl: 2.0.2
+  mappls_gl: 2.0.3
 
 dev_dependencies:
   flutter_test:
