@@ -48,13 +48,6 @@ class _SplashWidgetState extends State<SplashWidget> {
 
   void requestLocationPermission() async {
     var status = await Permission.location.status;
-    try {
-      var response = await MapplsReverseGeocode(location: LatLng(27.0, 77.0))
-          .callReverseGeocode();
-      print(json.encode(response));
-    } catch(ex) {
-      print (ex);
-    }
     if(status == PermissionStatus.granted) {
       moveToNextScreen();
     } else {

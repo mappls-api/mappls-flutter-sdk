@@ -20,11 +20,12 @@ Powered with India's most comprehensive and robust mapping functionalities.
 
 ## [Documentation History](#Documentation-History)
 
-| Version | Supported SDK Version                                                                                            |  
-| ---- |------------------------------------------------------------------------------------------------------------------|    
+| Version                         | Supported SDK Version                                                                                            |  
+|---------------------------------|------------------------------------------------------------------------------------------------------------------|    
+| [v2.0.1](docs/v2.0.1/README.md) | - Map SDK v2.0.4 <br/> - Place Search Widget v2.0.0 <br/> - Direction Widget v2.0.0 <br/> - Nearby Widget v2.0.0 |
 | [v2.0.0](docs/v2.0.0/README.md) | - Map SDK v2.0.3 <br/> - Place Search Widget v2.0.0 <br/> - Direction Widget v2.0.0 <br/> - Nearby Widget v2.0.0 |
 
-For more details of previous documentation versions, [click here](docs/v2.0.0/Doc-History.md)
+For more details of previous documentation versions, [click here](docs/v2.0.1/Doc-History.md)
 
 ## Table of Contents
 - [Getting Started](docs/v2.0.0/Getting-Started.md)
