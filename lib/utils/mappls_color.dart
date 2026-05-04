@@ -11,4 +11,6 @@ class MapplsColor {
 
   static Color primaryTextColor = Color(0xFFFFFFFF);
   static Color secondaryTextColor = Color(0xFFC6D0F7);
+
+  static Color darkThemeStrokeBorder = Color(0xFF333849);
 }

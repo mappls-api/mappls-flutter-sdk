@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:mappls_flutter_demo/utils/mappls_color.dart';
 import 'package:mappls_flutter_demo/widget/camera/camera_feature_widget.dart';
+import 'package:mappls_flutter_demo/widget/camera/location_camera_option_widget.dart';
 import 'package:mappls_flutter_demo/widget/camera/mappls_pin_camera_feature.dart';
 import 'package:mappls_flutter_demo/widget/event/add_map_widget.dart';
 import 'package:mappls_flutter_demo/widget/event/map_long_click_widget.dart';
@@ -46,6 +47,7 @@ class MyApp extends StatelessWidget {
         '/map_indoor':(BuildContext context) => IndoorWidget(),
         '/geo_analytics':(BuildContext context) => GeoAnalyticsWidget(),
         '/camera_feature':(BuildContext context) => CameraFeatureWidget(),
+        '/location_component_option':(BuildContext context) => LocationCameraOptionWidget(),
         '/mappls_pin_camera_feature':(BuildContext context) => MapplsPinCameraFeature(),
       },
     );

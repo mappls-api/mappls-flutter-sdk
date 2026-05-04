@@ -431,6 +431,13 @@ class Utils {
       route: '/camera_feature',
     ),
     SubCategoryModel(
+      name: 'Location Camera Options',
+      description:
+      'To change the current location icon and tracking mode',
+      icon: 'assets/location_component_option_icon.png',
+      route: '/location_component_option',
+    ),
+    SubCategoryModel(
       name: 'Camera Features in Mappls Pin',
       description:
       'Animate, Move or ease camera using mappls pin',
