@@ -15,79 +15,79 @@ Powered with India's most comprehensive and robust mapping functionalities.
 ## [Documentation History](#Documentation-History)
 
 | Version | Supported SDK Version                                                                                               |  
-| ---- |---------------------------------------------------------------------------------------------------------------------|    
+| ---- |---------------------------------------------------------------------------------------------------------------------|  
+| [v1.0.4](docs/v1.0.4/README.md) | - Map SDK v1.2.2 <br/> - Place Search Widget v1.0.5 <br/> - Direction Widget v1.0.2 <br/> - Nearby UI Widget v1.0.2 |  
 | [v1.0.3](docs/v1.0.3/README.md) | - Map SDK v1.2.1 <br/> - Place Search Widget v1.0.4 <br/> - Direction Widget v1.0.1 <br/> - Nearby UI Widget v1.0.1 |
 | [v1.0.2](docs/v1.0.2/README.md) | - Map SDK v1.0.2 <br/> - Place Search Widget v1.0.1 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 |
-| [v1.0.1](docs/v1.0.1/README.md) | - Map SDK v1.0.1 <br/> - Place Search Widget v1.0.1 <br/> - Direction Widget v1.0.0 <br/> - Nearby UI Widget v1.0.0 |
 
-For more details of previous documentation versions , [click here](docs/v1.0.3/Documentation-History.md).
+For more details of previous documentation versions , [click here](docs/v1.0.4/Documentation-History.md).
 
 ## [Version History](#Version-History)
 | Version | Last Updated     | Author | Release Note                                                                                                                                                                                                            | 
 |---------|------------------| ---- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| v1.2.2  | 01 August 2026  | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Remove `hyperLocal` & `zoom` from Autosugget Request.  </br> -  Remove `username` from Nearby Request </br> - Remove `username` from Text Search Request.                     |
 | v1.2.1  | 14 October 2025  | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Support for 16KB in Android                                                                                                                                                                                           |
 | v1.2.0  | 12 May 2025      | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Fix `PluginRegistry` issue in Android <br/> - Fix Bitcode issue in IOS                                                                                                                                                |
 | v1.1.2  | 23 December 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added Option to set Base Url in Search and Routing Apis                                                                                                                                                               |
 | v1.1.1  | 28 October 2024  | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes and Improvements                                                                                                                                                                                            |
-| v1.1.0  | 24 July 2024     | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - All Dart enums have been migrated from mixed cases to lower camelcase according to the camel_case_types lint rule. <br/> - Added minimum Dart SDK support to 3.0 <br/> - Fixed Mappls Pin Marker issue in Flutter IOS |
 
-For more details of previous versions , [click here](docs/v1.0.3/Version-History.md).
+For more details of previous versions , [click here](docs/v1.0.4/Version-History.md).
 
 ## [Table Of Content](#Table-Of-Content)
-- [Vector Flutter Map](docs/v1.0.3/Getting-Started.md)
-  - [Getting Started](docs/v1.0.3/Getting-Started.md#getting-started)
-  - [API Usage](docs/v1.0.3/Getting-Started.md#api-usage)
-  - [Installation](docs/v1.0.3/Getting-Started.md#installation)
-  - [Add Your API keys to the SDK](docs/v1.0.3/Getting-Started.md#add-your-api-keys-to-the-sdk)
-  - [Add Mappls Map to your application](docs/v1.0.3/Getting-Started.md#add-mappls-map-to-your-application)
-  - [Map Interactions](docs/v1.0.3/Getting-Started.md#map-interactions)
-  - [Map Events](docs/v1.0.3/Getting-Started.md#map-events)
-  - [Map Overlays](docs/v1.0.3/Getting-Started.md#map-overlays)
-    - [Add a Marker](docs/v1.0.3/Getting-Started.md#add-a-marker)
-    - [Remove a Marker](docs/v1.0.3/Getting-Started.md#remove-a-marker)
-    - [Customize a marker](docs/v1.0.3/Getting-Started.md#customize-a-marker)
-    - [Add a Polyline](docs/v1.0.3/Getting-Started.md#add-a-polyline)
-    - [Remove a Polyline](docs/v1.0.3/Getting-Started.md#remove-a-polyline)
-    - [Add a Polygon](docs/v1.0.3/Getting-Started.md#add-a-polygon)
-    - [Remove a Polygon](docs/v1.0.3/Getting-Started.md#remove-a-polygon)
-    - [Show User location](docs/v1.0.3/Getting-Started.md#show-user-location)
-- [Map Ui Settings](docs/v1.0.3/Map-Ui-Settings.md)
-  - [Compass Setting](docs/v1.0.3/Map-Ui-Settings.md#compass-settings)
-  - [Logo Settings](docs/v1.0.3/Map-Ui-Settings.md#logo-settings)
-  - [Enable/ Disable Map Rotation Gesture](docs/v1.0.3/Map-Ui-Settings.md#enable-disable-map-rotation-gesture)
-  - [Enable/Disable Map Scrolling Gesture](docs/v1.0.3/Map-Ui-Settings.md#enabledisable-map-scrolling-gesture)
-  - [Enable/ Disable Map Tilt Gesture](docs/v1.0.3/Map-Ui-Settings.md#enable-disable-map-tilt-gesture)
-  - [Enable/Disable Zoom Gesture](docs/v1.0.3/Map-Ui-Settings.md#enabledisable-zoom-gesture)
-- [Set Mappls Map style](docs/v1.0.3/Mappls-Map-Style.md)
-  - [List of Available Styles](docs/v1.0.3/Mappls-Map-Style.md#list-of-available-styles)
-  - [Set Mappls Style](docs/v1.0.3/Mappls-Map-Style.md#set-mappls-style)
-  - [To enable/disable last selected style](docs/v1.0.3/Mappls-Map-Style.md#to-enabledisable-last-selected-style)
-  - [Get Selected style](docs/v1.0.3/Mappls-Map-Style.md#get-selected-style)
+- [Vector Flutter Map](docs/v1.0.4/Getting-Started.md)
+  - [Getting Started](docs/v1.0.4/Getting-Started.md#getting-started)
+  - [API Usage](docs/v1.0.4/Getting-Started.md#api-usage)
+  - [Installation](docs/v1.0.4/Getting-Started.md#installation)
+  - [Add Your API keys to the SDK](docs/v1.0.4/Getting-Started.md#add-your-api-keys-to-the-sdk)
+  - [Add Mappls Map to your application](docs/v1.0.4/Getting-Started.md#add-mappls-map-to-your-application)
+  - [Map Interactions](docs/v1.0.4/Getting-Started.md#map-interactions)
+  - [Map Events](docs/v1.0.4/Getting-Started.md#map-events)
+  - [Map Overlays](docs/v1.0.4/Getting-Started.md#map-overlays)
+    - [Add a Marker](docs/v1.0.4/Getting-Started.md#add-a-marker)
+    - [Remove a Marker](docs/v1.0.4/Getting-Started.md#remove-a-marker)
+    - [Customize a marker](docs/v1.0.4/Getting-Started.md#customize-a-marker)
+    - [Add a Polyline](docs/v1.0.4/Getting-Started.md#add-a-polyline)
+    - [Remove a Polyline](docs/v1.0.4/Getting-Started.md#remove-a-polyline)
+    - [Add a Polygon](docs/v1.0.4/Getting-Started.md#add-a-polygon)
+    - [Remove a Polygon](docs/v1.0.4/Getting-Started.md#remove-a-polygon)
+    - [Show User location](docs/v1.0.4/Getting-Started.md#show-user-location)
+- [Map Ui Settings](docs/v1.0.4/Map-Ui-Settings.md)
+  - [Compass Setting](docs/v1.0.4/Map-Ui-Settings.md#compass-settings)
+  - [Logo Settings](docs/v1.0.4/Map-Ui-Settings.md#logo-settings)
+  - [Enable/ Disable Map Rotation Gesture](docs/v1.0.4/Map-Ui-Settings.md#enable-disable-map-rotation-gesture)
+  - [Enable/Disable Map Scrolling Gesture](docs/v1.0.4/Map-Ui-Settings.md#enabledisable-map-scrolling-gesture)
+  - [Enable/ Disable Map Tilt Gesture](docs/v1.0.4/Map-Ui-Settings.md#enable-disable-map-tilt-gesture)
+  - [Enable/Disable Zoom Gesture](docs/v1.0.4/Map-Ui-Settings.md#enabledisable-zoom-gesture)
+- [Set Mappls Map style](docs/v1.0.4/Mappls-Map-Style.md)
+  - [List of Available Styles](docs/v1.0.4/Mappls-Map-Style.md#list-of-available-styles)
+  - [Set Mappls Style](docs/v1.0.4/Mappls-Map-Style.md#set-mappls-style)
+  - [To enable/disable last selected style](docs/v1.0.4/Mappls-Map-Style.md#to-enabledisable-last-selected-style)
+  - [Get Selected style](docs/v1.0.4/Mappls-Map-Style.md#get-selected-style)
 - [Rest APIs]
-  - [Search APIs](docs/v1.0.3/Search-Api.md)
-    - [Autosuggest](docs/v1.0.3/Search-Api.md#auto-suggest)
-    - [Geocoding](docs/v1.0.3/Search-Api.md#geocoding)
-    - [Reverse Geocoding](docs/v1.0.3/Search-Api.md#reverse-geocoding)
-    - [Nearby Places](docs/v1.0.3/Search-Api.md#nearby-places)
-    - [Place Details](docs/v1.0.3/Search-Api.md#place-details)
-    - [POI Along the Route](docs/v1.0.3/Search-Api.md#poi-along-the-route)
-  - [Routes & Navigation API](docs/v1.0.3/Routing-Api.md)
-    - [Routing API](docs/v1.0.3/Routing-Api.md#routing-api)
-    - [Driving Distance Matrix API](docs/v1.0.3/Routing-Api.md#driving-distance-matrix-api)
-- [Mappls Pin Strategy](docs/v1.0.3/Mappls-Pin-Strategy.md)
-- [Mappls Search Widget](docs/v1.0.3/Place-Autocomplete-Widget.md)
-  - [Getting Started](docs/v1.0.3/Place-Autocomplete-Widget.md#getting-started)
-  - [Adding Mappls Keys](docs/v1.0.3/Place-Autocomplete-Widget.md#adding-mappls-keys)
-  - [Place Autocomplete](docs/v1.0.3/Place-Autocomplete-Widget.md#place-autocomplete)
-  - [Place Picker](docs/v1.0.3/Place-Autocomplete-Widget.md#place-picker)
-- [Mappls Direction Widget](docs/v1.0.3/Direction-Ui.md)
-  - [Getting Started](docs/v1.0.3/Direction-Ui.md#getting-started)
-  - [Adding Mappls Keys](docs/v1.0.3/Direction-Ui.md#adding-mappls-keys)
-  - [Add Direction Widget](docs/v1.0.3/Direction-Ui.md#add-direction-widget)
-- [Mappls Nearby Widget](docs/v1.0.3/Nearby-Widget.md)
-  - [Getting Started](docs/v1.0.3/Nearby-Widget.md#getting-started)
-  - [Adding Mappls Keys](docs/v1.0.3/Nearby-Widget.md#adding-mappls-keys)
-  - [Add Nearby Widget](docs/v1.0.3/Nearby-Widget.md#add-nearby-widget)
+  - [Search APIs](docs/v1.0.4/Search-Api.md)
+    - [Autosuggest](docs/v1.0.4/Search-Api.md#auto-suggest)
+    - [Geocoding](docs/v1.0.4/Search-Api.md#geocoding)
+    - [Reverse Geocoding](docs/v1.0.4/Search-Api.md#reverse-geocoding)
+    - [Nearby Places](docs/v1.0.4/Search-Api.md#nearby-places)
+    - [Place Details](docs/v1.0.4/Search-Api.md#place-details)
+    - [POI Along the Route](docs/v1.0.4/Search-Api.md#poi-along-the-route)
+  - [Routes & Navigation API](docs/v1.0.4/Routing-Api.md)
+    - [Routing API](docs/v1.0.4/Routing-Api.md#routing-api)
+    - [Driving Distance Matrix API](docs/v1.0.4/Routing-Api.md#driving-distance-matrix-api)
+- [Mappls Pin Strategy](docs/v1.0.4/Mappls-Pin-Strategy.md)
+- [Mappls Search Widget](docs/v1.0.4/Place-Autocomplete-Widget.md)
+  - [Getting Started](docs/v1.0.4/Place-Autocomplete-Widget.md#getting-started)
+  - [Adding Mappls Keys](docs/v1.0.4/Place-Autocomplete-Widget.md#adding-mappls-keys)
+  - [Place Autocomplete](docs/v1.0.4/Place-Autocomplete-Widget.md#place-autocomplete)
+  - [Place Picker](docs/v1.0.4/Place-Autocomplete-Widget.md#place-picker)
+- [Mappls Direction Widget](docs/v1.0.4/Direction-Ui.md)
+  - [Getting Started](docs/v1.0.4/Direction-Ui.md#getting-started)
+  - [Adding Mappls Keys](docs/v1.0.4/Direction-Ui.md#adding-mappls-keys)
+  - [Add Direction Widget](docs/v1.0.4/Direction-Ui.md#add-direction-widget)
+- [Mappls Nearby Widget](docs/v1.0.4/Nearby-Widget.md)
+  - [Getting Started](docs/v1.0.4/Nearby-Widget.md#getting-started)
+  - [Adding Mappls Keys](docs/v1.0.4/Nearby-Widget.md#adding-mappls-keys)
+  - [Add Nearby Widget](docs/v1.0.4/Nearby-Widget.md#add-nearby-widget)
 
 
 <br><br><br>
@@ -114,7 +114,7 @@ Need support? contact us!
 
 
 
-<div align="center">@ Copyright 2024 CE Info Systems Ltd. All Rights Reserved.</div>
+<div align="center">@ Copyright 2026 CE Info Systems Ltd. All Rights Reserved.</div>
 
 <div align="center"> <a href="https://about.mappls.com/api/terms-&-conditions">Terms & Conditions</a> | <a href="https://about.mappls.com/about/privacy-policy">Privacy Policy</a> | <a href="https://about.mappls.com/pdf/mapmyIndia-sustainability-policy-healt-labour-rules-supplir-sustainability.pdf">Supplier Sustainability Policy</a> | <a href="https://about.mappls.com/pdf/Health-Safety-Management.pdf">Health & Safety Policy</a> | <a href="https://about.mappls.com/pdf/Environment-Sustainability-Policy-CSR-Report.pdf">Environmental Policy & CSR Report</a>
 
