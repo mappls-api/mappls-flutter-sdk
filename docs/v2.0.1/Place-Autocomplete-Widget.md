@@ -7,13 +7,14 @@ Mappls Search Widget contains Place Autocomplete and Place Picker
 ## [Version History]()
 | Version | Last Updated      | Author | Release Note                                                                                                                                                                                         | 
 |---------|-------------------| ---- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| v2.0.2  | 03 Aug, 2026     | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - ABug Fixes.  |
 | v2.0.0  | 08 Oct, 2025     | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Authentication and authorization mechanisms have been revised. </br> - Updated minimum Android version to 21. </br> - Added Support for 16 KB Page Sizes </br> - Added SPM(Swift Package Manager Support) for IOS.  |
 
 ## [Getting Started]()
 To work with Mappls Search Widget in flutter add these to your package's pubspec.yaml file:
 ~~~yaml  
 dependencies:  
-	mappls_place_widget: ^2.0.0
+	mappls_place_widget: ^2.0.2
 ~~~  
 ### Android Setup
 [Click Here](./Add-Mappls-SDK.md#android-setup) for Android Setup
@@ -61,20 +62,19 @@ You can use `PlaceOptions` to set the properties of the widget:
 6. `toolbarColor(String)`: to set the toolbar color of the widget.
 7. `saveHistory(bool)`: If it sets to  `true`  it shows the history selected data
 8. `tokenizeAddress(bool)`: provides the different address attributes in a structured object.
-9. `zoom(double)`: takes the zoom level of the current scope of the map (min: 4, max: 18).
-10. `location(LatLng)`:  set location around which your search will appear
-11.    `attributionHorizontalAlignment(int)`: To set the vertical alignment for attribution.  **Below mentioned are the values:**
+9. `location(LatLng)`:  set location around which your search will appear
+10.    `attributionHorizontalAlignment(int)`: To set the vertical alignment for attribution.  **Below mentioned are the values:**
     -   PlaceOptions.GRAVITY_LEFT
     -   PlaceOptions.GRAVITY_CENTER
     -   PlaceOptions.GRAVITY_RIGHT
-12. `attributionVerticalAlignment(int)`: To set the horizontal alignment for attribution.  **Below mentioned are the values:**
+11. `attributionVerticalAlignment(int)`: To set the horizontal alignment for attribution.  **Below mentioned are the values:**
     -   PlaceOptions.GRAVITY_TOP
     -   PlaceOptions.GRAVITY_BOTTOM
-13. `logoSize(int)`: To set the logo size.  **Below mentioned are the values:**
+12. `logoSize(int)`: To set the logo size.  **Below mentioned are the values:**
     -   PlaceOptions.SIZE_SMALL
     -   PlaceOptions.SIZE_MEDIUM
     -   PlaceOptions.SIZE_LARGE
-14. `debounce(int)`: This means that the the search apis is hit only debounce value. This is made to control the api hits from SDK parameter. It takes values in milliseconds. Minimum value is 0 and Maximum value is 1500.
+13. `debounce(int)`: This means that the the search apis is hit only debounce value. This is made to control the api hits from SDK parameter. It takes values in milliseconds. Minimum value is 0 and Maximum value is 1500.
 
 ## [Place Picker]()
 Use method `openPlacePicker` to open Place Picker:

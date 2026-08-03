@@ -14,13 +14,14 @@ This can be done by following simple steps.
 ## [Version History]()
 | Version | Last Updated      | Author | Release Note                                                                                                                                                                                         | 
 |---------|-------------------| ---- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| v2.0.1  | 03 Aug, 2026     | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes.  |
 | v2.0.0  | 09 Oct, 2025     | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Authentication and authorization mechanisms have been revised. </br> - Updated minimum Android version to 21. </br> - Added Support for 16 KB Page Sizes </br> - Added SPM(Swift Package Manager Support) for IOS.  |
 
 ## Getting Started
 To work with Mappls nearby Widget in flutter add these to your package's pubspec.yaml file:
 ~~~yaml  
 dependencies:  
-  mappls_nearby_plugin: ^2.0.0
+  mappls_nearby_plugin: ^2.0.1
 ~~~  
 
 

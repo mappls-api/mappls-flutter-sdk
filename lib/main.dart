@@ -13,6 +13,7 @@ import 'package:mappls_flutter_demo/widget/event/map_click_widget.dart';
 import 'package:mappls_flutter_demo/widget/layers/geo_analytics_widget.dart';
 import 'package:mappls_flutter_demo/widget/layers/heat_map_layer_widget.dart';
 import 'package:mappls_flutter_demo/widget/layers/indoor_widget.dart';
+import 'package:mappls_flutter_demo/widget/marker/add_marker_widget.dart';
 import 'package:mappls_flutter_demo/widget/sub_category_widget.dart';
 import 'package:mappls_flutter_demo/widget/splash_widget.dart';
 
@@ -49,6 +50,7 @@ class MyApp extends StatelessWidget {
         '/camera_feature':(BuildContext context) => CameraFeatureWidget(),
         '/location_component_option':(BuildContext context) => LocationCameraOptionWidget(),
         '/mappls_pin_camera_feature':(BuildContext context) => MapplsPinCameraFeature(),
+        '/add_marker':(BuildContext context) => AddMarkerWidget(),
       },
     );
   }

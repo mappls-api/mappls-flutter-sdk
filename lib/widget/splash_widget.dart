@@ -9,7 +9,7 @@ import 'package:permission_handler/permission_handler.dart';
 class SplashWidget extends StatefulWidget {
   const SplashWidget({super.key});
 
-    @override
+  @override
   State<StatefulWidget> createState() {
     return _SplashWidgetState();
   }

@@ -364,7 +364,8 @@ class Utils {
       name: 'Map Layers',
       icon: 'assets/map_layer_icon.png',
     ),
-    CategoryModel(type: 2, name: 'Camera', icon: 'assets/map_camera_icon.png')
+    CategoryModel(type: 2, name: 'Camera', icon: 'assets/map_camera_icon.png'),
+    CategoryModel(type: 3, name: 'Marker', icon: 'assets/map_marker_icon.png'),
   ];
 
   static List<SubCategoryModel> mapEvents = [
@@ -446,6 +447,16 @@ class Utils {
     ),
   ];
 
+  static List<SubCategoryModel> mapMarker = [
+    SubCategoryModel(
+      name: 'Add a Marker',
+      description:
+      'Add a marker and visualize it on map',
+      icon: 'assets/add_marker_icon.png',
+      route: '/add_marker',
+    ),
+  ];
+
   static List<SubCategoryModel> getSubCategoryList(int type) {
     switch (type) {
       case 0:
@@ -454,6 +465,8 @@ class Utils {
         return mapLayers;
       case 2:
         return cameraFeature;
+      case 3:
+        return mapMarker;
       default:
         return [];
     }
@@ -467,6 +480,8 @@ class Utils {
         return 'Map Layers';
       case 2:
         return 'Camera';
+      case 3:
+        return 'Marker';
       default:
         return '';
     }
