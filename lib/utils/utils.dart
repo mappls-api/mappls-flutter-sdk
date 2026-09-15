@@ -455,6 +455,13 @@ class Utils {
       icon: 'assets/add_marker_icon.png',
       route: '/add_marker',
     ),
+    SubCategoryModel(
+      name: 'Add Custom Marker',
+      description:
+      'Add a custom marker and visualize it on map',
+      icon: 'assets/custom_marker_icon.png',
+      route: '/add_custom_marker',
+    ),
   ];
 
   static List<SubCategoryModel> getSubCategoryList(int type) {
