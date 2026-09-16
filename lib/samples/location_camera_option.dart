@@ -35,8 +35,8 @@ class _LocationCameraOptionState extends State {
     MyLocationTrackingMode.noneGPS,
     MyLocationTrackingMode.tracking,
     MyLocationTrackingMode.trackingCompass,
-    MyLocationTrackingMode.trackingGPS,
-    MyLocationTrackingMode.trackingGPSNorth,
+    MyLocationTrackingMode.trackingGps,
+    MyLocationTrackingMode.trackingGpsNorth,
   ];
   List<String> trackingModeTextList = [
     "None",
