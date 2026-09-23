@@ -1,3 +1,6 @@
+## v1.0.6, Sep 23, 2026
+* Added SPM Support in IOS
+
 ## 1.0.5, Aug 01, 2026
 * Remove `hyperLocal` & `zoom` from Place Widget
 

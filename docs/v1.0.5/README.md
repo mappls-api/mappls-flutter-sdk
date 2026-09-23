@@ -16,7 +16,7 @@ Powered with India's most comprehensive and robust mapping functionalities.
 
 | Version               | Supported SDK Version                                                                                               |  
 |-----------------------|---------------------------------------------------------------------------------------------------------------------|
-| [v1.0.5](../v1.0.5/README.md) | - Map SDK v1.2.3 <br/> - Place Search Widget v1.0.5 <br/> - Direction Widget v1.0.2 <br/> - Nearby UI Widget v1.0.2 | 
+| [v1.0.5](../v1.0.5/README.md) | - Map SDK v1.2.3 <br/> - Place Search Widget v1.0.6 <br/> - Direction Widget v1.0.2 <br/> - Nearby UI Widget v1.0.2 | 
 | [v1.0.4](../v1.0.4/README.md) | - Map SDK v1.2.2 <br/> - Place Search Widget v1.0.5 <br/> - Direction Widget v1.0.2 <br/> - Nearby UI Widget v1.0.2 |   
 | [v1.0.3](../v1.0.3/README.md) | - Map SDK v1.2.1 <br/> - Place Search Widget v1.0.4 <br/> - Direction Widget v1.0.1 <br/> - Nearby UI Widget v1.0.1 |
 
